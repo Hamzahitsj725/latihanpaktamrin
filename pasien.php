@@ -28,7 +28,7 @@
             <td width='150'>$row[nmpasien]</td>
             <td>$row[alamat]</td>
             <td>
-                <a href=\"editpasien.php?idpasien=$row[idpasien]\">Edit</a> | <a href=\"deletpasien.php?idpasien=$row[idpasien]\">Hapus</a>
+                <a href=\"editpasien.php?idpasien=$row[idpasien]\">Edit</a> | <a href=\"deletepasien.php?idpasien=$row[idpasien]\">Hapus</a>
             </td>
             </tr>";
             $nmr = $nmr + 1;
