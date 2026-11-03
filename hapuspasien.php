@@ -1,10 +1,12 @@
-<h1>Hapus Pasien</h1>
 <?php
     include "konekdb.php";
 
     $idpasien = $_POST['idpasien'];
     
     $sql = "DELETE FROM pasien where idpasien = '$idpasien'";
+    $sql = "UPDATE pasien set nmpasien = '$nmpasien', alamat = '$alamat' where idpasien = '$idpasien'";
+    $sql = "INSERT INTO pasien (nmpasien, alamat) VALUES ('$nmpasien', '$alamat')";
+
 
     $sukses = $konek->query($sql);
     if($sukses){

@@ -9,14 +9,14 @@
     {
         $row = $result->fetch_assoc();
 ?>
-        <form action="simpanpasien.php" method="POST">
+        <form action="save.php" method="POST">
             <label for="">ID</label><br>
             <input type="text" name="idpasien" value="<?=$row['idpasien']; ?>" readonly><br>
             <label for="">Nama Pasien</label><br>
             <input type="text" name="nmpasien" value="<?=$row['nmpasien']; ?>"><br>
             <label for="">Alamat</label><br>   
             <input type="text" name="alamat" value="<?php echo $row['alamat']; ?>">
-            <p><input type="submit" name="submit" value="Simpan"></p>
+            <p><input type="submit" name="edit" value="Simpan"></p>
         </form>
 <?php
     } else {

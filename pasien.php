@@ -4,7 +4,7 @@
     
     <!-- kalau querynya sukses, tampilkan data/cetak -->
     <!-- w3school -->
-    
+    <p><a href="tambahpasien.php">Tambah Pasien</a></p>
     <table border = 1>
         <tr>
             <th>NO.</th>

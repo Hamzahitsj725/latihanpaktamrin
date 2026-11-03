@@ -1,4 +1,3 @@
-<h1>Simpan Pasien</h1>
 <?php
     include "konekdb.php";
 
